@@ -37,9 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
-#include <libc.h>
-int main()
-{
-	char s[] = "omar";
-	printf("%s", ft_substr(s, 1, -1));
-}
