@@ -16,7 +16,7 @@ The goal was not only to implement these functions but to also delve deeper into
 
 Through this project, I learned and strengthened the following skills:
 
-- **Memory Management:** How to allocate and manipulate memory in C using custom functions like `ft_malloc` and `ft_calloc`.
+- **Memory Management:** How to allocate and manipulate memory in C using custom functions like `malloc` and `ft_calloc`.
 - **String Handling:** Writing efficient string functions to parse, compare, and manipulate strings, like `ft_strjoin`, `ft_strlcpy`, and `ft_strtrim`.
 - **Linked Lists:** Implementing linked list operations from scratch to manage dynamic data structures.
 - **Edge Case Handling:** Dealing with various edge cases like empty strings, NULL pointers, and invalid inputs to ensure the robustness of each function.
