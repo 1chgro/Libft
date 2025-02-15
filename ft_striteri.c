@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <libc.h>
+
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	size_t	i;
@@ -25,19 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-// void toolower(unsigned int i, char *c)
-// {
-// 	if (i % 2 == 0 && (c[i] >= 'A' && c[i] <= 'Z'))
-// 	{
-// 		c[i] = c[i] + 32;
-// 	}
-
-// }
-
-// int main()
-// {
-	
-// 	char s[] = "HEgfLLO WORDL";
-// 	ft_striteri(s, toolower);
-// 	printf("%s\n", s);
-// }
